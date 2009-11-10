@@ -1,6 +1,6 @@
-====================
+==========================
 dutils - Django JS Utils
-====================
+==========================
 
 The Django JS Utils is a small utility library that has close ties with
 the Django Web Framework.
