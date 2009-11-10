@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Django JS Library</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <p><a href="#" onclick="alert(django.core.urlresolvers.resolve('dashboard'))">Dashboard</a></p>
+    <p><a href="#" onclick="alert(django.core.urlresolvers.resolve('time_edit', { project_id: 1, time_id: 2 }))">Edit time</a></p>
+
+    <script type="text/javascript" src="django.js"></script>
+    <script type="text/javascript" src="django.conf.urls.js"></script>
+</body>
+</html>
