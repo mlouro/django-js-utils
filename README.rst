@@ -2,10 +2,9 @@
 dutils - Django JS Utils
 ==========================
 
-The Django JS Utils is a small utility library that has close ties with
-the Django Web Framework.
-The aim of this library is to provide JavaScript/Django developers with
-a few utilities that will help the development of RIA.
+dutils is a small utility library that aims to provide JavaScript/Django developers with
+a few utilities that will help the development of RIA on top of a
+Django Backend.
 
 It currently supports the following features:
 
