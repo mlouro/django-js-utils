@@ -1,8 +1,7 @@
-var django = django || {};
-django.conf = django.conf || {};
-django.core = django.core || {};
+var dutils = {};
+dutils.conf = {};
 
-django.core.urlresolvers = function(){
+dutils.urls = function(){
 
     function _get_path(name, kwargs, urls)
     {
@@ -34,7 +33,7 @@ django.core.urlresolvers = function(){
 
         resolve: function(name, kwargs, urls) {
             if (!urls)
-                urls = django.conf.urls || {};
+                urls = dutils.conf.urls || {};
 
             return _get_path(name, kwargs, urls);
         }
